@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Sending App</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Use This Button to Send Email</h1>
+        <div class="text-center">
+            <a href="{% url 'send_email' %}" class="btn btn-success btn-lg">Send Email</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

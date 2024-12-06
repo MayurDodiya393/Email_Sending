@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Premium modern font */
+    background-color: #62A29A; /* Soft mint background */
+    line-height: 1.8;
+    padding: 20px;
+    color: #333; /* Subtle dark gray for text */
+}
+
+h1 {
+    color: #ffffff; /* Rich navy blue */
+    text-align: center;
+    margin-top: 40px;
+    text-transform: capitalize;
+    font-weight: 600; /* Semi-bold for emphasis */
+    font-size: 2.5rem;
+    letter-spacing: 1.5px; /* Slightly spaced letters */
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    border: 0px solid green;
+    background: #8d05ff91;
+    padding: 8px 20px;
+    border-radius: 7px;
+    font-size: 15px;
+    transition: background 0.6s, transform 0.6s; /* Smooth transition for background and transform */
+}
+
+a:hover {
+    background: #6b07bd91;
+    font-size: 15.5px;
+    padding: 10px 22px;
+    transform: scale(1.1); /* Slightly enlarges the button */
+}
+
+.text-center {
+    text-align: center;
+}
